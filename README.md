@@ -8,7 +8,11 @@ A premium, editorial-style website for a fictional luxury hair salon. Built as a
 
 ## Screenshots
 
-_Screenshots coming soon._
+## Screenshots
+
+![LUXE STUDIO on desktop](docs/screenshots/desktop.png)
+
+<img src="docs/screenshots/mobile.png" alt="LUXE STUDIO on a phone" width="300" />
 
 ## Features
 
