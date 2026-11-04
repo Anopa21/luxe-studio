@@ -2,7 +2,7 @@
 
 A premium, editorial-style website for a fictional luxury hair salon. Built as a portfolio project to practise modern React, responsive design and motion.
 
-**Live site:** _Deployment link coming soon_
+**Live site:** [luxe-studio-eight.vercel.app](https://luxe-studio-eight.vercel.app)
 
 > All names, prices, reviews and contact details are **sample content** for demonstration. Nothing here is a real business.
 
