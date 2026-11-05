@@ -20,6 +20,7 @@ body {
     color: var(--color-cream);
     font-family: var(--font-sans);
     font-weight: 300;
+    font-variant-numeric: lining-nums;
     -webkit-font-smoothing: antialiased;
 }
 
