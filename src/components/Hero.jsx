@@ -7,6 +7,7 @@ import {
     useTransform,
 } from "framer-motion";
 import Button from "./Button";
+import Hero3D from "./Hero3D";
 
 const reveal = {
     hidden: { opacity: 0, y: 28 },
@@ -74,10 +75,7 @@ export default function Hero() {
             />
 
             {/* Floating gold particles */}
-            <div
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-0"
-            >
+            <div aria-hidden="true" className="pointer-events-none absolute inset-0">
                 {particles.map((p, i) => (
                     <motion.span
                         key={i}
@@ -214,6 +212,9 @@ export default function Hero() {
                             </motion.div>
                         </div>
                     </motion.div>
+
+                    {/* Real 3D gold object (desktop only) */}
+                    <Hero3D />
                 </motion.div>
             </div>
         </section>
