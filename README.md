@@ -19,6 +19,7 @@ A premium, editorial-style website for a fictional luxury hair salon. Built as a
 - Responsive layout for phone, tablet and desktop
 - Navigation bar that becomes solid on scroll, with a full-screen mobile menu
 - Hero with a mouse-driven 3D tilt, scroll parallax and floating gold particles
+- A real-time 3D gold object (Three.js) that turns as you scroll. It is lazy-loaded and only shown on desktop-width screens, so phones never download it. It is also skipped for visitors who prefer reduced motion, and fails silently if WebGL is unavailable.
 - Services menu with prices, driven from a single data list
 - Editorial photo gallery with hover tilt and zoom
 - About section, testimonials and contact section with opening hours
@@ -35,6 +36,7 @@ There is no backend. After the form passes validation, it opens **WhatsApp with 
 - [Vite](https://vite.dev/)
 - [Tailwind CSS](https://tailwindcss.com/) v4
 - [Framer Motion](https://motion.dev/)
+- [Three.js](https://threejs.org/), [React Three Fiber](https://r3f.docs.pmnd.rs/) and [drei](https://github.com/pmndrs/drei) for the 3D hero object
 - JavaScript (ES modules)
 - Google Fonts: Cormorant Garamond and Jost
 
@@ -73,7 +75,8 @@ Contact details, opening hours, social links and the WhatsApp number live in one
 ```
 src/
 ├── components/   Navbar, Hero, Services, Gallery, About,
-│                 Testimonials, Booking, Contact, Footer, Button, Tilt
+│                 Testimonials, Booking, Contact, Footer, Button, Tilt,
+│                 Hero3D (loads the 3D only when needed), GoldObject (the scene)
 ├── siteConfig.js Contact details and settings
 ├── App.jsx       Page layout
 ├── main.jsx      App entry point
