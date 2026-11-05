@@ -12,7 +12,7 @@ const principles = [
         text: "We shape cuts and colour that suit you and grow out beautifully, long after you leave the chair.",
     },
     {
-        title: "Uncompromising quality",
+        title: "Exacting quality",
         text: "Considered products, unhurried time and meticulous finishing on every single visit.",
     },
 ];
@@ -28,7 +28,7 @@ export default function About() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, amount: 0.2 }}
                         transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
-                        className="relative mx-auto w-full max-w-md lg:col-span-5 lg:max-w-none"
+                        className="relative isolate mx-auto w-full max-w-md lg:col-span-5 lg:max-w-none"
                     >
                         <div className="relative aspect-[4/5] overflow-hidden bg-ink">
                             <img

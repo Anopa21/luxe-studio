@@ -85,7 +85,7 @@ export default function Gallery() {
                 </div>
 
                 {/* Photo grid */}
-                <div className="grid grid-cols-2 items-end gap-3 md:grid-cols-12 md:gap-5">
+                <div className="grid grid-cols-2 items-stretch gap-3 md:grid-cols-12 md:gap-5">
                     {photos.map((photo) => (
                         <Tilt
                             as="figure"
